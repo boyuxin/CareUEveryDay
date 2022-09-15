@@ -31,7 +31,7 @@ public class Application {
         GirlFriend girlFriend = new GirlFriend("婕蜥卡",
                 "宁夏", "银川市", "2000-08-29", "2020-07-08", "oZRE26B-C-rWgtotgnWbTO18IKOA");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
-        //push
+        //push1
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
 //        BoyFriend boyFriend = new BoyFriend("某男友",
 //                "江苏省", "南京市", "1999-08-08", "2011-04-16", "oQFk-5qtXv2uGNCu9oiCiV85KWD8", "5t7-Ksy8_rw-QmUkxf8J7Pe-QLQ2rBc7RWJi_pSmeh4");
